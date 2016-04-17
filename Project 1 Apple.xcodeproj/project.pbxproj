@@ -12,6 +12,9 @@
 		8F6D85181CB9712800CB64F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D85161CB9712800CB64F0 /* Main.storyboard */; };
 		8F6D851A1CB9712800CB64F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D85191CB9712800CB64F0 /* Assets.xcassets */; };
 		8F6D851D1CB9712800CB64F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6D851B1CB9712800CB64F0 /* LaunchScreen.storyboard */; };
+		8F6D85251CB9723500CB64F0 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D85241CB9723500CB64F0 /* RegisterPageViewController.swift */; };
+		8F6D85271CB9724F00CB64F0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6D85261CB9724F00CB64F0 /* LoginViewController.swift */; };
+		8F7C9F341CC40B7500BF8840 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C9F331CC40B7500BF8840 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8F6D85191CB9712800CB64F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F6D851C1CB9712800CB64F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F6D851E1CB9712800CB64F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F6D85241CB9723500CB64F0 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
+		8F6D85261CB9724F00CB64F0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8F7C9F331CC40B7500BF8840 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				8F6D85191CB9712800CB64F0 /* Assets.xcassets */,
 				8F6D851B1CB9712800CB64F0 /* LaunchScreen.storyboard */,
 				8F6D851E1CB9712800CB64F0 /* Info.plist */,
+				8F6D85241CB9723500CB64F0 /* RegisterPageViewController.swift */,
+				8F6D85261CB9724F00CB64F0 /* LoginViewController.swift */,
+				8F7C9F331CC40B7500BF8840 /* ViewController2.swift */,
 			);
 			path = "Project 1 Apple";
 			sourceTree = "<group>";
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7C9F341CC40B7500BF8840 /* ViewController2.swift in Sources */,
+				8F6D85271CB9724F00CB64F0 /* LoginViewController.swift in Sources */,
 				8F6D85151CB9712800CB64F0 /* ViewController.swift in Sources */,
 				8F6D85131CB9712800CB64F0 /* AppDelegate.swift in Sources */,
+				8F6D85251CB9723500CB64F0 /* RegisterPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +264,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sanzid.Project-1-Apple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -263,6 +276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sanzid.Project-1-Apple";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -285,6 +299,7 @@
 				8F6D85231CB9712800CB64F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
